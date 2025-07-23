@@ -52,7 +52,7 @@
   <xacro:property name="I_wheel" value="${(1.0/12.0) * wheel_mass * (3.0 * wheel_link_radius * wheel_link_radius + wheel_link_length * wheel_link_length)}"/>
 
   <!-- Comment out the gazebo include for now -->
-  <!-- <xacro:include filename="/ros2_ws/src/urdf_ex/urdf/robot.gazebo"/> -->
+  <xacro:include filename="/Robotics-Tutorials/urdf/robot.gazebo"/>
 
   <!-- Dummy link -->
   <link name="base_link"/>
